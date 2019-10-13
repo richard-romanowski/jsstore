@@ -1,6 +1,21 @@
-# Jsstore
+# js store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+
+
+
+This project is based on 
+https://github.com/tobi-or-not-tobi/cxlive/tree/master
+
+with up-to-date Spartacus library (10/12/3019)
+"@spartacus/storefront": "^1.1.0"
+used "@spartacus/storefront@1.2.2"
+
+
+Step 1
+Initial - connection to remote SAP server, working version 
+code https://stackblitz.com/github/richard-romanowski/jsstore/tree/initial
+
+
 
 ## Development server
 
