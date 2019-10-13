@@ -1,3 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import '~@spartacus/styles/index';
+@import "~@spartacus/styles/index";
+
+:root {
+  --cx-color-primary: #f0ab00;
+  --cx-color-dark: #000;
+}
+
+cx-add-to-cart {
+  --cx-color-primary: #008fd3;
+}

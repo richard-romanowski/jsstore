@@ -1,8 +1,6 @@
 # js store
 
 
-
-
 This project is based on 
 https://github.com/tobi-or-not-tobi/cxlive/tree/master
 
@@ -15,6 +13,10 @@ Step 1
 Initial - connection to remote SAP server, working version 
 code https://stackblitz.com/github/richard-romanowski/jsstore/tree/initial
 
+runtime-theming
+Step 2
+Runtime Theming - use variables for color 
+code https://stackblitz.com/github/richard-romanowski/jsstore/tree/runtime-theming
 
 
 ## Development server
