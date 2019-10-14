@@ -9,14 +9,19 @@ with up-to-date Spartacus library (10/12/3019)
 used "@spartacus/storefront@1.2.2"
 
 
-Step 1
+Demo 1
 Initial - connection to remote SAP server, working version 
 code https://stackblitz.com/github/richard-romanowski/jsstore/tree/initial
 
-runtime-theming
-Step 2
+
+Demo 2
 Runtime Theming - use variables for color 
 code https://stackblitz.com/github/richard-romanowski/jsstore/tree/runtime-theming
+
+Demo 3
+Custom Search - Replace component
+Use outlets to replace/add custom voice search component
+code https://stackblitz.com/github/richard-romanowski/jsstore/tree/custom-search
 
 
 ## Development server

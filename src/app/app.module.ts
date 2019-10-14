@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { translations, translationChunksConfig } from '@spartacus/assets';
 import { B2cStorefrontModule } from '@spartacus/storefront';
 
+import { CustomSearchModule } from './custom-search/custom-search.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -31,6 +33,7 @@ import { B2cStorefrontModule } from '@spartacus/storefront';
         level: '1.2'
       }
     }),
+    CustomSearchModule
   ],
   providers: [],
   bootstrap: [AppComponent]
