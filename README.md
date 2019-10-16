@@ -13,6 +13,10 @@ Demo 1
 Initial - connection to remote SAP server, working version 
 code https://stackblitz.com/github/richard-romanowski/jsstore/tree/initial
 
+runtime-theming
+Step 2
+Runtime Theming - use variables for color 
+code https://stackblitz.com/github/richard-romanowski/jsstore/tree/runtime-theming
 
 Demo 2
 Runtime Theming - use variables for color 

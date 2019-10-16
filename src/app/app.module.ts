@@ -15,14 +15,14 @@ import { CustomSearchModule } from './custom-search/custom-search.module';
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     B2cStorefrontModule.withConfig({
       backend: {
-        // occ: {baseUrl: 'https://localhost:9002',
         occ: {
+        //  baseUrl: 'https://localhost:9002',
           baseUrl: 'https://storefront.c39j2-walkersde1-d4-public.model-t.cc.commerce.ondemand.com',
           prefix: '/rest/v2/'
         }
       },
       context: {
-        baseSite: ['electronics']
+        baseSite: ['electronics-spa']
       },
       i18n: {
         resources: translations,
