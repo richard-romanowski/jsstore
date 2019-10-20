@@ -9,17 +9,16 @@ with up-to-date Spartacus library (10/12/3019)
 used "@spartacus/storefront@1.2.2"
 
 Demo 1
-Initial - connection to remote SAP server, working version.
-
+Initial - connection to remote SAP server, working version.\
 code https://stackblitz.com/github/richard-romanowski/jsstore/tree/initial
 
 Demo 2
-Runtime Theming - use variables for color.
+Runtime Theming - use variables for color.\
 code https://stackblitz.com/github/richard-romanowski/jsstore/tree/runtime-theming
 
 Demo 3
 Custom Search - Replace component
-Use outlets to replace/add custom voice search component
+Use outlets to replace/add custom voice search component\
 code https://stackblitz.com/github/richard-romanowski/jsstore/tree/custom-search
 
 
@@ -27,8 +26,7 @@ Demo 4: Override and leverage ctx data
 This demonstrates a PDP price and summary outlet that uses the data provided from the context. This example differs from original as IMAGE is not part of ProductDetailOutlets.  
 
 Introduce type-safe outlet references (ProductDetailOutlets or ProductDetailsComponent.outlets)
-There are some issues with this demo: ProductDetailOutlets is the only declared outlets,  ProductDetailsComponent dosn't exist, and ProductImagesComponent is not exported. 
-
+There are some issues with this demo: ProductDetailOutlets is the only declared outlets,  ProductDetailsComponent dosn't exist, and ProductImagesComponent is not exported. \
 code https://stackblitz.com/github/richard-romanowski/jsstore/tree/outlet-with-context
 
 ## Development server
