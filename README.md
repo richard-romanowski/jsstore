@@ -8,15 +8,9 @@ with up-to-date Spartacus library (10/12/3019)
 "@spartacus/storefront": "^1.1.0"
 used "@spartacus/storefront@1.2.2"
 
-
 Demo 1
 Initial - connection to remote SAP server, working version 
 code https://stackblitz.com/github/richard-romanowski/jsstore/tree/initial
-
-runtime-theming
-Step 2
-Runtime Theming - use variables for color 
-code https://stackblitz.com/github/richard-romanowski/jsstore/tree/runtime-theming
 
 Demo 2
 Runtime Theming - use variables for color 
@@ -29,15 +23,11 @@ code https://stackblitz.com/github/richard-romanowski/jsstore/tree/custom-search
 
 
 Demo 4: Override and leverage ctx data
-This demonstrates an pdp image outlet that uses the data provided from the context. This means our customisation doesn't need to do the hard lifting to load data from OCC direcly (or use our ngrx store), it's available right away.
+This demonstrates a PDP price and summary outlet that uses the data provided from the context. This example differs from original as IMAGE is not part of ProductDetailOutlets.  
 
 Introduce type-safe outlet references (ProductDetailOutlets or ProductDetailsComponent.outlets)
-Create an ng-template and register it to the IMAGES outlet
-Add a context attribute to the template (i.e. let-model
-Use the context attribute inside the template (i.e. {{model | json}}
-In order to see the demo, launch a PDP page (i.e. 1382080). The image section is been override.
-outlet-with-context
-
+There are some issues with this demo: ProductDetailOutlets is the only declared outlets,  ProductDetailsComponent dosn't exist, and ProductImagesComponent is not exported. 
+code https://stackblitz.com/github/richard-romanowski/jsstore/tree/outlet-with-context
 
 ## Development server
 
