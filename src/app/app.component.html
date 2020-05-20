@@ -1,12 +1,22 @@
 <cx-storefront></cx-storefront>
-<ng-template [cxOutletRef]="productDetailOutlets.PRICE" >
-    <div style="background-color:lightblue">
-        Add to Cart to see the price
-    </div>
-</ng-template>
 
-<ng-template [cxOutletRef]="productDetailOutlets.SUMMARY" let-sum>
-    <div style="background-color:yellow"> 
-        Code: {{ sum.product.code }}
-    </div>
+<ng-template [cxOutletRef]="productDetailOutlets.INTRO" let-sum >
+        <div style="background-color:yellow"> 
+                INTRO
+            </div>       
+</ng-template>
+<ng-template [cxOutletRef]="productDetailOutlets.PRICE" let-sum >
+        <div style="background-color:yellow"> 
+                PRICE
+            </div>       
+</ng-template>
+<ng-template [cxOutletRef]="productDetailOutlets.SHARE" let-sum >
+        <div style="background-color:yellow"> 
+                SHARE
+            </div>       
+</ng-template>
+<ng-template [cxOutletRef]="productDetailOutlets.SUMMARY" let-sum >
+        <div style="background-color:yellow"> 
+                SUMMARY
+            </div>       
 </ng-template>

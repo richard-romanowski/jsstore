@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { ProductDetailOutlets } from "@spartacus/storefront";
-
+import { ProductSummaryComponent } from "@spartacus/storefront";
 
 @Component({
   selector: "app-root",
@@ -10,4 +10,5 @@ import { ProductDetailOutlets } from "@spartacus/storefront";
 export class AppComponent {
   title = "jsstore";
   productDetailOutlets = ProductDetailOutlets;
+  productSummaryComponent = ProductSummaryComponent;
 }
