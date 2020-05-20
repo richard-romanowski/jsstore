@@ -17,7 +17,7 @@ import { CustomSearchModule } from './custom-search/custom-search.module';
       backend: {
         occ: {
         //  baseUrl: 'https://localhost:9002',
-          baseUrl: 'https://storefront.c39j2-walkersde1-d4-public.model-t.cc.commerce.ondemand.com',
+          baseUrl: 'https://api.c39j2-walkersde1-d3-public.model-t.cc.commerce.ondemand.com',
           prefix: '/rest/v2/'
         }
       },
