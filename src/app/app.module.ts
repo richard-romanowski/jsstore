@@ -15,8 +15,8 @@ import { B2cStorefrontModule } from '@spartacus/storefront';
       backend: {
         occ: {
         //  baseUrl: 'https://localhost:9002',
-          baseUrl: 'https://api.c39j2-walkersde1-d3-public.model-t.cc.commerce.ondemand.com',
-          prefix: '/rest/v2/'
+          baseUrl: 'https://spartacus-demo.eastus.cloudapp.azure.com:8443',
+          prefix: '/occ/v2/'
         }
       },
       context: {
